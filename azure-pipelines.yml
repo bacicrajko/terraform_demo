@@ -28,7 +28,8 @@ steps:
   displayName: 'Set up the Go workspace'
 
 - script: |
-    cd /acceptance_tests
+    ls
+    cd acceptance_tests
     go version
     go get -v -t -d ./...
     if [ -f Gopkg.toml ]; then

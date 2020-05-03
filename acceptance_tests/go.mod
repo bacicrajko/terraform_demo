@@ -1,4 +1,4 @@
-module acceptance_tests
+module github.com/bacicrajko/terraform_demo/acceptance_tests
 
 go 1.14
 
